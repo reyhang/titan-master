@@ -163,11 +163,10 @@ a,
 .module,
 .module-small {
   position: relative;
-  margin: 10px;
+  padding: 140px 0;
   background-repeat: no-repeat;
-  background-position: 20% 20%;
+  background-position: 50% 50%;
   background-size: cover;
-  height: 250px;
 }
 
 /* Module header */
@@ -653,7 +652,7 @@ a,
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 11px;
-  padding: 8px 30px;
+  padding: 8px 37px;
 }
 
 .btn.active.focus,
@@ -893,9 +892,7 @@ blockquote {
   font-family: "Roboto Condensed", sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
-  text-align: center;
 }
-
 .font-alt2 {
   font-family: "Roboto Condensed", sans-serif;
   text-transform: uppercase;
@@ -1275,9 +1272,9 @@ General Styles - Owlcarousel
 
 .navbar-custom .navbar-brand {
   letter-spacing: 4px;
+  font-weight: 400;
+  font-size: 22px;
   color: #fff;
-  align-self: left;
-
 }
 
 .navbar-custom .nav li > a {
@@ -1386,6 +1383,7 @@ General Styles - Owlcarousel
   background-position: center center;
   width: 100%;
   z-index: 0;
+  background-size: cover;
 }
 
 .titan-title-size-1 {
@@ -1459,7 +1457,7 @@ General Styles - Owlcarousel
 /* FAQ Page Header */
 .faq-page-header:before {
   background: rgba(2, 2, 2, 0.15);
-}background
+}
 
 /* Blog Page Header */
 .blog-page-header {
@@ -1930,6 +1928,10 @@ Google map
   width: 100%;
   top: 0;
   left: 0;
+}
+.project-image img {
+width: 100px;
+height: 50px;
 }
 
 .work-caption {
